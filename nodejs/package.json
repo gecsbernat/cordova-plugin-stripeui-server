@@ -1,0 +1,19 @@
+{
+    "name": "stripe-rest-api",
+    "version": "0.0.1",
+    "description": "Stripe Rest API Example",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.12.4",
+        "stripe": "^8.176.0"
+    },
+    "engines": {
+        "node": "4.4.5"
+    },
+    "license": "MIT"
+}
